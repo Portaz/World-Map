@@ -1,36 +1,83 @@
-<style>
-    .dropdown {
-      position: relative;
-      display: inline-block;
-      background-color: black;
-      color: aliceblue;
-    }
-    
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      /* background-color: #f9f9f9; */
-      min-width: 160px;
-      color: black;
-      /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-      padding: 12px 16px;
-      z-index: 1;
-    }
-    
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-    </style>
-    
-    <div class="dropdown">
-      <span>ASIA</span>
-      <div class="dropdown-content">
-        <p>NEPAL</p>
-        <p>NEPAL</p>
-        <p>NEPAL</p>
-        <p>NEPAL</p>
-    
-        <p>NEPAL</p>
-        <li>USA</li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ul class="grid-container">
+    <li class="grid-item">
+      <div class="asia">
+        <p>
+          <img src="/Maps/asia-countries.png" alt="">
+          <a href="about.html" style="color: black;">Asia</a>
+        </p>
       </div>
-    </div>
+    </li>
+    <li class="grid-item">
+      <div class="africa">
+        <p2>
+          <img src="/Images/a_b.png" alt="">
+          <a href="about2.html" style="color: black;">Africa</a>
+        </p2>
+      </div>
+    </li>
+    <li class="grid-item">
+      <p3>
+        <img src="/Maps/na.webp" alt="">
+        <a href="" style="color: black;">North America</a>
+      </p3>
+    </li>
+    <li class="grid-item">
+      <p3>
+        <img src="/Maps/sa.png" alt="">
+        <a href="" style="color: black;">South America</a>
+      </p3>
+    </li>
+    <li class="grid-item">
+      <p4>
+        <img src="/Maps/europe.webp" alt="">
+        <a href="" style="color: black;">Europe</a>
+      </p4>
+    </li>
+    <li class="grid-item">
+      <p5>
+        <img src="/Maps/aus.png" alt="">
+        <a href="" style="color: black;">Australia</a>
+      </p5>
+    </li>
+  </ul>
+
+  
+<style>
+  .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item p {
+  margin: 0;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+</style>
+
+</body>
+</html>

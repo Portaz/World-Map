@@ -1,0 +1,68 @@
+footer{
+    color: white;
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+nav{
+    margin: auto;
+    background-color: black;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}
+
+img{
+    width: 300px;
+}
+
+li{
+    display:grid  ;
+}
+    
+
+body{
+    margin: auto;
+
+}
+
+h1{
+    text-align: center;
+    size: 150px;
+}
+
+
+/* DROP MENU  */
+
+select {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    color: #333;
+    width: 200px;
+  }
+  
+  select:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ddd;
+  }
+  
+  option {
+    font-size: 16px;
+    color: #333;
+  }
+  

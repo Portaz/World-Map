@@ -61,3 +61,30 @@ p{
 .div{
     color: black;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-item p {
+    margin: 0;
+  }
+  
+  .grid-item img {
+    max-width: 150px;
+    height: 150px;
+  }
+
+  
