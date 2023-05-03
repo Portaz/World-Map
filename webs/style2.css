@@ -1,0 +1,50 @@
+nav{
+    margin: auto;
+    background-color: black;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}
+
+body{
+    margin: auto;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.n-a {
+    position: relative;
+    display: inline-block;
+}
+
+.n-a-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.n-a:hover .n-a-content {
+    display: block;
+}
+
+.n-a-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.n-a-content a:hover {
+    background-color: #f1f1f1;
+}
+

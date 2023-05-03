@@ -1,0 +1,63 @@
+
+
+body{
+    margin: auto
+    
+}
+
+nav{
+    background-color: black;
+    height: 50px;
+
+}
+
+ul{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ color: black;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+    text-align: center;
+}
+  
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color: grey !important;
+}
+
+
+    
+footer{
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+/* IMAGES */
+img{
+    height: 150px;
+}
+
+/* LOCATING IN CORRECT PLACES */
+ 
+p{
+    color: black;
+    
+}
+
+.div{
+    color: black;
+}
